@@ -9,7 +9,7 @@ font-family: 'PT Sans', sans-serif;
 padding:0 auto;
 margin:0 auto;
 height:auto;width:auto;
-background:url(/images/mbg.jpg) fixed;
+background:url(images/mbg.jpg) fixed;
 background-position:fixed;
 background-repeat:no-repeat;
 background-size:100% 100%;
@@ -489,7 +489,7 @@ text-decoration:underline;
 
 
 div.bottomexp{
-background:url(/images/bgbottom2.jpg);
+background:url(images/bgbottom2.jpg);
 background-size:100% 100%;
 background-repeat:no-repeat;
 height:auto;
