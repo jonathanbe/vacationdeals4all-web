@@ -1,0 +1,572 @@
+hmtl{
+padding:0 auto;
+margin:0 auto; 
+font-family: 'PT Sans', sans-serif;
+}
+
+body{
+font-family: 'PT Sans', sans-serif;
+padding:0 auto;
+margin:0 auto;
+height:auto;width:auto;
+background:url(/images/mbg.jpg) fixed;
+background-position:fixed;
+background-repeat:no-repeat;
+background-size:100% 100%;
+overflow-x:hidden;
+height:700px;
+    
+}
+
+a.resorts{
+background-color:#ff406d;    
+padding:5px 10px;
+border-radius:5px;
+text-decoration:none;
+color:white;
+transition:all .15s ease;
+-moz-transition:all .15s ease;
+-webkit-transition:all .15s ease;
+-o-transition:all .15s ease;
+
+}
+
+
+a.resorts:hover{
+cursor:pointer;
+background-color:#ff6489;    
+transition:all .15s ease;
+-moz-transition:all .15s ease;
+-webkit-transition:all .15s ease;
+-o-transition:all .15s ease;
+}
+
+a.resorts:active{
+background-color:#ff406d;        
+}
+
+a.hotels{
+background-color:#4089ff;    
+padding:5px 10px;
+border-radius:5px;
+text-decoration:none;
+color:white;
+transition:all .15s ease;
+-moz-transition:all .15s ease;
+-webkit-transition:all .15s ease;
+-o-transition:all .15s ease;
+
+}
+
+a.hotels:hover{
+cursor:pointer;
+background-color:#5d9bff;    
+transition:all .15s ease;
+-moz-transition:all .15s ease;
+-webkit-transition:all .15s ease;
+-o-transition:all .15s ease;
+}
+
+a.hotels:active{
+background-color:#4089ff;    
+}
+
+
+a.spas{
+background-color:#6c40ff;    
+padding:5px 10px;
+border-radius:5px;
+text-decoration:none;
+color:white;
+transition:all .15s ease;
+-moz-transition:all .15s ease;
+-webkit-transition:all .15s ease;
+-o-transition:all .15s ease;
+}
+
+
+a.spas:hover{
+cursor:pointer;
+background-color:#8460ff;    
+transition:all .15s ease;
+-moz-transition:all .15s ease;
+-webkit-transition:all .15s ease;
+-o-transition:all .15s ease;
+}
+
+a.spas:active{
+background-color:#6c40ff;    
+}
+
+
+
+a.explore{
+background-color:#ff9840;    
+padding:5px 10px;
+border-radius:5px;
+text-decoration:none;
+color:white;
+transition:all .15s ease;
+-moz-transition:all .15s ease;
+-webkit-transition:all .15s ease;
+-o-transition:all .15s ease;
+}
+
+a.explore:hover{
+cursor:pointer;
+background-color:#ffaa61;    
+transition:all .15s ease;
+-moz-transition:all .15s ease;
+-webkit-transition:all .15s ease;
+-o-transition:all .15s ease;
+}
+
+a.explore:active{
+background-color:#ff9840;    
+}
+
+div.frontsection{
+color:white;
+text-shadow:2px 2px rgba(5,5,5,0.7);
+font-size:16pt;
+width:100%;
+top:200px;
+padding-left:110px;
+letter-spacing:1px;
+position:fixed;
+z-index:99;
+}
+
+/*
+div.fixie{
+position:relative;
+width:100%;z-index:-999999;
+}
+*/
+
+div.about{
+background-color:#eaeaea;
+color:black;
+padding-left:10%;
+padding-right:10%;
+padding-top:-75px;
+padding-bottom:205px;
+margin-top:470px;letter-spacing:1px;
+position:relative;
+z-index:9999;
+font-size:13pt;
+top:150px;
+-webkit-box-shadow: 0px -28px 30px 0px rgba(50, 50, 50, 0.55);
+-moz-box-shadow:    0px -28px 30px 0px rgba(50, 50, 50, 0.55);
+box-shadow:         0px -28px 30px 0px rgba(50, 50, 50, 0.55);
+}
+
+div.spacer{
+padding-left:15%;        
+padding-right:15%;        
+}
+
+div.spacer1{
+padding-left:15%;        
+padding-right:15%;        margin-top:-55px;
+}
+
+div.bgtkt{
+background:url(/images/overlay.png), url(images/resort2.jpg) ;
+background-repeat:no-repeat;
+background-size: 100% 100%;
+padding-top:210px;
+padding-bottom:210px;
+font-size:32pt;
+color:white;
+text-shadow:2px 2px rgba(5,5,5,0.6);
+z-index:9999 !important;
+position:relative;
+}
+
+a.featured{
+padding:10px 20px;
+border:2px solid rgba(255,255,255,0.45);
+background-color:rgba(255,255,255,0.15);
+color:white;
+border-radius:4px;
+font-size:14pt;font-weight:bold;letter-spacing:2px;
+
+transition:all .15s ease;
+-moz-transition:all .15s ease;
+-webkit-transition:all .15s ease;
+-o-transition:all .15s ease;
+}
+
+a.featured:hover{
+cursor:pointer;
+background-color:rgba(255,255,255,0.25);
+
+transition:all .15s ease;
+-moz-transition:all .15s ease;
+-webkit-transition:all .15s ease;
+-o-transition:all .15s ease;
+}
+
+a.alllocations{
+padding:10px 20px;
+border:2px solid rgba(255,255,255,0.45);
+background-color:rgba(5,5,5,0.25);
+color:white;
+border-radius:4px;
+font-size:14pt;font-weight:bold;letter-spacing:2px;
+}
+
+a.alllocations:hover{
+cursor:pointer;
+background-color:rgba(15,15,15,0.65);
+
+transition:all .15s ease;
+-moz-transition:all .15s ease;
+-webkit-transition:all .15s ease;
+-o-transition:all .15s ease;
+}
+
+
+img.drink{
+height:155px;
+position:relative;
+left:-215px;
+margin-bottom:-190px;
+}
+
+
+img.sandals{
+height:155px;
+position:relative;
+right:-215px;
+top:-80px;
+margin-bottom:-190px;
+float:right
+}
+
+img.shades{
+height:95px;
+position:relative;
+right:-215px;
+top:100px;
+margin-bottom:-190px;
+float:right
+}
+
+
+
+#bghov1 {
+    width: 550px;
+    height: 420px;
+    
+    border-bottom: 2px solid #fff;
+    border-right: 2px solid #fff;
+    background: url(images/cabana.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+    margin-bottom:-6px;
+    margin-right:-3px;
+}
+
+#overlay1 {
+    background: rgba(255, 100, 137,0.7);
+    text-align: center;
+     width: 550px;
+    height: 420px;
+    opacity: 0;
+    line-height:420px; border-top-left-radius:0;
+    -webkit-transition: opacity .25s ease;
+    -moz-transition: opacity .25s ease;
+}
+
+#bghov1:hover #overlay1 {
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+
+#bghov2 {
+    width: 550px;
+    height: 420px;
+    
+    border-bottom: 2px solid #fff;
+    border-right: 2px solid #fff;
+    background: url(images/345980982.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-right-radius:0;
+     margin-bottom:-6px;
+    margin-left:-3px;
+}
+
+#overlay2 {
+    background: rgba(93, 155, 255,0.7);
+    text-align: center;
+     width: 550px;
+    height: 420px;
+    opacity: 0;
+    line-height:420px;
+  border-top-right-radius:0;
+    -webkit-transition: opacity .25s ease;
+    -moz-transition: opacity .25s ease;
+}
+
+#bghov2:hover #overlay2 {
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+
+
+
+#bghov3 {
+    width: 550px;
+    height: 420px;
+    
+    border-bottom: 2px solid #fff;
+    border-right: 2px solid #fff;
+    background: url(images/spas.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-bottom-left-radius:0;
+    margin-right:-3px;
+}
+
+#overlay3 {
+    background: rgba(108, 64, 255,0.7);
+    text-align: center;
+     width: 550px;
+    height: 420px;
+    opacity: 0;
+    line-height:420px;
+ border-bottom-left-radius:0;
+    -webkit-transition: opacity .25s ease;
+    -moz-transition: opacity .25s ease;
+}
+
+#bghov3:hover #overlay3{
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+
+
+
+#bghov4 {
+    width: 550px;
+    height: 420px;
+    
+    border-bottom: 2px solid #fff;
+    border-right: 2px solid #fff;
+    background: url(images/weekly.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-bottom-right-radius:0;
+   margin-left:-3px;
+}
+
+#overlay4 {
+    background: rgba(255, 152, 64,0.7);
+    text-align: center;
+     width: 550px;
+    height: 420px;
+    opacity: 0;
+    line-height:420px;
+ border-bottom-right-radius:0;
+    -webkit-transition: opacity .25s ease;
+    -moz-transition: opacity .25s ease;
+}
+
+#bghov4:hover #overlay4{
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+#bghov5 {
+    width: 1100px;
+    height: 420px;
+    
+    border-bottom: 2px solid #fff;
+    border-right: 2px solid #fff;
+    background: url(images/beach-tracks.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-bottom-right-radius:0;
+   margin-left:0px;margin-top:-6px;
+}
+
+#overlay5 {
+    background: rgba(255, 109, 109,0.7);
+    text-align: center;
+     width: 1100px;
+    height: 420px;
+    opacity: 0;
+    line-height:420px;
+ border-bottom-right-radius:0;
+    -webkit-transition: opacity .25s ease;
+    -moz-transition: opacity .25s ease;
+}
+
+#bghov5:hover #overlay5{
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#plus {
+    font-weight: 900;
+    color: rgba(255, 255, 255, .85);
+    font-size: 28pt;letter-spacing:5px;
+    border-top:2px solid white;
+    border-bottom:2px solid white;
+    text-transform:capitalize;
+    
+    
+}
+
+
+div.main{
+background-color:white;
+position:relative;z-index:999;
+padding-top:75px;
+padding-bottom:75px;
+    
+}
+
+td{
+width:30%;    
+}
+
+a.membershipa{
+color:#ff406d;text-decoration:none;cursor:pointer;    
+}
+
+a.membershipa:hover{
+text-decoration:underline;    
+}
+
+
+
+a.back{
+color:#406dff;text-decoration:none;cursor:pointer;  padding:none;font-size:12pt;
+}
+
+a.back:hover{
+text-decoration:underline;    
+}
+
+
+
+div.bottomexp{
+background:url(/images/bgbottom2.jpg);
+background-size:100% 100%;
+background-repeat:no-repeat;
+height:auto;
+color:white;
+text-align:center;
+text-shadow:2px 2px rgba(5,5,5,0.7);
+position:relative;
+z-index:9999;margin-top:-65px;
+}
+
+div.bottomexp h1{
+color:white;
+font-size:32pt;
+padding-top:330px;
+}
+
+div.footer{
+position:relative;
+padding-top:225px;
+font-size:16pt;
+}
+
+a.members{
+border:1px solid rgba(255,255,255,0.5);   
+color:rgba(255,255,255,0.7);   
+padding:4px 9px;margin-right:15px;
+letter-spacing:1px;font-size:13pt;
+text-shadow:1px 1px black;
+border-radius:5px;
+float:right;cursor:pointer;
+transition:all .3s ease;
+-webkit-transition:all .3s ease;
+-moz-transition:all .3s ease;
+-o-transition:all .3s ease;
+}
+
+
+a.members:hover{
+border:1px solid rgba(255,255,255,1);   
+color:rgba(255,255,255,1);       
+transition:all .3s ease;
+-webkit-transition:all .3s ease;
+-moz-transition:all .3s ease;
+-o-transition:all .3s ease;    
+}
+
+
+div.mlgin{
+position:relative;
+top:25px;
+float:right;
+padding-right:140px;
+margin-top:-200px;
+z-index:999999999999;
+}
+
+
+
+
+/*- ------------------------------ scrollbar ---------------------------*/
+
+::-webkit-scrollbar {
+    width: 6px;margin-right:24px;position:fixed;z-index:99999;
+}
+ 
+::-webkit-scrollbar-track {
+
+    border-radius: 50px;
+    background-color:#333;
+    z-index:99999;
+  
+
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 0%;cursor:pointer;background-color:#149b8b;
+    /*border:3px solid #ff406d;opacity:0.3;z-index:99999;*/
+    
+
+}
